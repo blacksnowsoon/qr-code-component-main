@@ -14,13 +14,17 @@ body {
 	min-height: 100svh;
 	font-family: 'Outfit', sans-serif;
 	display: flex;
-	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
-
+main {
+	max-width: 1000px;
+	width: 100%;
+	
+}
 .cards-wrapper {
 	display: grid;
-	margin: auto;
-	width: 1000px;
+	width: 100%;
 	background: var(--Light-gray);
 	place-items: center center;
 	padding: 2rem;
@@ -46,6 +50,9 @@ body {
 	.card {
 		box-shadow: none;
 	}
+}
+h1 {
+	font-size: 16px;
 }
 p {
 	font-size: 15px;
